@@ -1,0 +1,134 @@
+
+
+
+body {
+    font-family: 'Rajdhani';
+}
+.topbar{
+    background-color: #E1E1E1;
+    color: #383838;
+    padding: 10px;
+}
+.topbar p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content_area{
+    padding: 10px;
+    position: relative;
+}
+.first_image{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.second_images{
+    margin-bottom: 60px;
+}
+
+
+.btn_confirm {
+    background: #E3C56C;
+    border-radius: 1px;
+    font-size: 20px;
+    color: ;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.content_area ul li{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.content_area h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.content_area h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.content_area p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.form_area{
+    position: absolute;
+}
+
+.ftr_area{
+    background-color: #2E2E2E;
+    height: 130px;
+    color: #fff;
+}
+
+.ftr_area p{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 20px
+}
+
+#registrationform {
+    padding: 30px;
+}
+
+#registrationform input{
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    border-bottom: 3px solid gray;
+    border-radius: 0px;
+}
+
+#registrationform input:focus{
+    border-color: #E3C56C;
+    transition: 0.2s ease-in-out;
+}
+
+.confirm_area{
+    text-align: center;
+}
+.alert{
+    display: none;
+}
+
+.slider_area{
+    position: relative;
+    color: #fff;
+}
+
+.bottom_right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+.btn_register {
+    background: #E3C56C;
+    padding: 10px 40px;
+    color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #7f7f7f;
+    transition: 0.5s;
+}
+
+.btn_register:hover, .btn_confirm:hover {
+    background: #2E2E2E;
+    color: #E3C56C;
+}
+.register_area{
+    text-align: center;
+    margin-top: 30px;
+}
+.fb_area{
+    margin-bottom: 30px;
+}
